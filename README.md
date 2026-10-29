@@ -87,6 +87,8 @@ Official sources:
 
 ## License and notices
 
-Terms of use are in [EULA.md](EULA.md) (bilingual; acceptance is required during installation and on first launch). Component terms and attribution are in `licenses` and [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). The application uses NVIDIA RTX Video SDK 1.1. NVIDIA and RTX are trademarks of NVIDIA Corporation. This is an independent application, not an NVIDIA or Topaz product, and is not endorsed by them.
+The original source code of this project is licensed under the [Apache License 2.0](LICENSE) (see also [NOTICE](NOTICE)). This license applies only to the author's original code. It does **not** cover the NVIDIA components (`nvngx_vsr.dll`, NVIDIA object code linked into `nostalgia_rtx.dll`, and any material provided by NVIDIA) or other third-party components, which keep their own licenses. The compiled release archive contains NVIDIA components and is governed by the [EULA](EULA.md) (bilingual; acceptance is required during installation and on first launch).
+
+Component terms and attribution are in `licenses` and [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). The application uses NVIDIA RTX Video SDK 1.1. NVIDIA and RTX are trademarks of NVIDIA Corporation. This is an independent application, not an NVIDIA or Topaz product, and is not endorsed by them.
 
 Frame in the screenshot: a scene from a feature film, shown only to illustrate the program's interface.

@@ -79,4 +79,10 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts\Build-Windows.ps
 - Qt for Python: https://doc.qt.io/qtforpython-6/
 - FFmpeg build: https://github.com/GyanD/codexffmpeg/releases/tag/7.1.1
 
-Условия использования — в `EULA.md` (при установке и первом запуске требуется согласие). Условия компонентов и атрибуция — в `licenses` и `THIRD-PARTY-NOTICES.md`. Приложение использует NVIDIA RTX Video SDK 1.1. NVIDIA и RTX — товарные знаки NVIDIA Corporation. Это самостоятельное приложение, не продукт NVIDIA или Topaz и не одобрено ими.
+## Лицензия
+
+Исходный код проекта, написанный автором, распространяется по [Apache License 2.0](LICENSE) (см. также [NOTICE](NOTICE)). Эта лицензия относится только к оригинальному коду автора. Она **не распространяется** на компоненты NVIDIA (`nvngx_vsr.dll`, объектный код NVIDIA в `nostalgia_rtx.dll` и любые материалы, предоставленные NVIDIA) и на другие сторонние компоненты: у них собственные лицензии. Собранный релизный архив содержит компоненты NVIDIA и регулируется [EULA](EULA.md) (двуязычное; согласие требуется при установке и первом запуске).
+
+Условия компонентов и атрибуция — в `licenses` и [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md). Приложение использует NVIDIA RTX Video SDK 1.1. NVIDIA и RTX — товарные знаки NVIDIA Corporation. Это самостоятельное приложение, не продукт NVIDIA или Topaz и не одобрено ими.
+
+Кадр на скриншоте взят из художественного фильма и нужен только для иллюстрации интерфейса.

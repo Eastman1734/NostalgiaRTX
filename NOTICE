@@ -1,0 +1,20 @@
+Nostalgia RTX
+Copyright 2026 Aleksandr Balin
+
+The original source code of this project is licensed under the Apache License,
+Version 2.0 (see LICENSE).
+
+This license does not apply to third-party components. In particular:
+- NVIDIA RTX Video SDK components (nvngx_vsr.dll and NVIDIA object code linked
+  into nostalgia_rtx.dll) and any material provided by NVIDIA Corporation are
+  governed by the NVIDIA RTX SDKs License, not by Apache-2.0.
+- Python, Qt for Python, NumPy, Pillow and FFmpeg keep their own licenses
+  (see THIRD-PARTY-NOTICES.md).
+
+This software contains source code provided by NVIDIA Corporation.
+
+The compiled release distribution, which includes NVIDIA components, is
+governed by EULA.md.
+
+NVIDIA and RTX are trademarks of NVIDIA Corporation. This project is not
+sponsored or endorsed by NVIDIA.

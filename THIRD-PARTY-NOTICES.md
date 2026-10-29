@@ -31,5 +31,7 @@ Installed runtime components retain their own licenses:
 - Microsoft runtime DLLs distributed in the official Python/Qt wheels retain
   their original redistribution terms and notices.
 
-Original application source can be modified for your own use. Third-party
-licenses are not replaced or overridden by the application's source terms.
+The original application source code is licensed under the Apache License,
+Version 2.0 (see `LICENSE` and `NOTICE`). That license does not cover the
+NVIDIA components or any other third-party component listed here; their licenses
+are not replaced or overridden by the application's source terms.

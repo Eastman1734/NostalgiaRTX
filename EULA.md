@@ -2,7 +2,7 @@
 
 # End User License Agreement (EULA) — Nostalgia RTX
 
-Версия 1.0 / Version 1.0. Применяется к Nostalgia RTX 0.2.2 и более поздним версиям / Applies to Nostalgia RTX 0.2.2 and later.
+Версия 1.0 (уточнение раздела 2 от 29.10.2026) / Version 1.0 (section 2 clarified 2026-10-29). Применяется к Nostalgia RTX 0.2.2 и более поздним версиям / Applies to Nostalgia RTX 0.2.2 and later.
 
 ---
 
@@ -16,7 +16,7 @@
 
 ### 2. Лицензия
 
-Лицензиар предоставляет вам неисключительную, непередаваемую лицензию без права сублицензирования на установку и использование Программы на принадлежащих вам или находящихся под вашим контролем компьютерах с видеокартами NVIDIA, для обработки видео. Компоненты NVIDIA лицензируются только для использования в составе Программы. Оригинальный код Лицензиара вы можете изменять для собственного использования. Лицензии сторонних компонентов (Python, Qt for Python, NumPy, Pillow, FFmpeg и др.) не заменяются и не отменяются этим соглашением; они перечислены в `THIRD-PARTY-NOTICES.md`.
+Лицензиар предоставляет вам неисключительную, непередаваемую лицензию без права сублицензирования на установку и использование Программы на принадлежащих вам или находящихся под вашим контролем компьютерах с видеокартами NVIDIA, для обработки видео. Компоненты NVIDIA лицензируются только для использования в составе Программы. Исходный код Лицензиара (без Компонентов NVIDIA) дополнительно опубликован в репозитории Программы на условиях Apache License 2.0; это соглашение регулирует скомпилированный дистрибутив, содержащий Компоненты NVIDIA, и не ограничивает права на исходный код по Apache-2.0. Лицензии сторонних компонентов (Python, Qt for Python, NumPy, Pillow, FFmpeg и др.) не заменяются и не отменяются этим соглашением; они перечислены в `THIRD-PARTY-NOTICES.md`.
 
 ### 3. Ограничения
 
@@ -84,7 +84,7 @@ The Software consists of (a) the Licensor's original code and (b) third-party co
 
 ### 2. License
 
-The Licensor grants you a non-exclusive, non-transferable license, without the right to sublicense, to install and use the Software on computers you own or control that have NVIDIA GPUs, to process video. The NVIDIA Components are licensed only for use as part of the Software. You may modify the Licensor's original code for your own use. Licenses of third-party components (Python, Qt for Python, NumPy, Pillow, FFmpeg, etc.) are neither replaced nor overridden by this agreement; they are listed in `THIRD-PARTY-NOTICES.md`.
+The Licensor grants you a non-exclusive, non-transferable license, without the right to sublicense, to install and use the Software on computers you own or control that have NVIDIA GPUs, to process video. The NVIDIA Components are licensed only for use as part of the Software. The Licensor's source code (excluding the NVIDIA Components) is additionally published in the Software's repository under the Apache License 2.0; this agreement governs the compiled distribution that contains the NVIDIA Components and does not limit your rights in the source code under Apache-2.0. Licenses of third-party components (Python, Qt for Python, NumPy, Pillow, FFmpeg, etc.) are neither replaced nor overridden by this agreement; they are listed in `THIRD-PARTY-NOTICES.md`.
 
 ### 3. Restrictions
 
