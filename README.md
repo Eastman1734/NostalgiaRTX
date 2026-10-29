@@ -16,3 +16,7 @@
 3. Запустите `INSTALL.cmd` для загрузки Python, Qt, NumPy, Pillow и FFmpeg.
 
 Условия использования: [EULA.md](EULA.md). Сторонние лицензии: [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+## Скриншот
+
+![Главное окно](docs/screenshots/main.png)
