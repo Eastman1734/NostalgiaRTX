@@ -1,0 +1,38 @@
+Nostalgia RTX 0.2.2 — validation, 2026-10-28
+
+Compiled Windows x64 GUI launcher and RTX bridge using Clang/LLD targeting
+the MSVC ABI, Windows SDK, and NVIDIA RTX Video SDK 1.1's nvsdk_ngx_d.lib.
+The launcher depends only on system Windows DLLs. The bridge exports the
+five expected C ABI functions; its NVIDIA/MSVC imports have been inspected.
+
+Twelve Python tests passed:
+- GUI defaults, settings, progress, comparison slider and completion state.
+- Refusal to pretend the NVIDIA backend works on an unsupported OS.
+- Real FFmpeg video/audio pipeline with Unicode paths, fractional FPS,
+  color channel order, cancellation, child cleanup and unchanged source.
+- Rejection of HDR, anamorphic and interlaced inputs.
+- Comparison image color order.
+- Refusal to overwrite a published result.
+- Selection of non-cover video and 90-degree display rotation geometry.
+- Rejection of a truncated decoder frame.
+- NVENC preflight uses actual output dimensions, including 7680x4320, and CQ.
+- H.264 width-limit errors stop before VSR initialization; GUI selects H.265
+  when the selected output exceeds 4096 pixels along either dimension.
+- Tiny container FPS rounding is accepted only with independently verified
+  frame count and duration; actual rate changes and missing frames are rejected.
+- Validation errors report actual dimensions; a completed unverified video
+  and both FFprobe documents are preserved on verification failure.
+
+The media tests use a test-only nearest-neighbor backend and CPU encoder.
+They do NOT test NVIDIA VSR quality or GPU execution. The production code
+always uses the actual RTX Video bridge and NVENC; there is no fake fallback.
+
+UI rendered and visually inspected with Qt offscreen on Linux.
+Official SDK and dependency archives were downloaded and inspected.
+Pinned Python package, Python embedded runtime, and FFmpeg SHA256 hashes
+match the downloaded files in the development environment.
+
+Not verified here: running Windows EXE/DLL files, PowerShell installation,
+Direct3D/NGX/VSR execution, NVENC execution, target driver compatibility,
+GPU throughput, visual quality on the user's source video, or long-film runs.
+Run the in-app RTX/NVENC check, then a 3-second preview on the target PC.

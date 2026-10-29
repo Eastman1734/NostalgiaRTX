@@ -1,0 +1,13 @@
+# Бинарники со встроенными компонентами NVIDIA — не публикуются в репозитории
+bin/
+NostalgiaRTX.exe
+licenses/
+SHA256SUMS.json
+# Локальная установка и служебные файлы
+.runtime/
+.downloads/
+.nostalgia-render-*/
+startup.log
+__pycache__/
+*.pyc
+.eula-accepted-*
